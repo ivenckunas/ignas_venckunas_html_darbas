@@ -1,5 +1,5 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap);
 * {
   box-sizing: border-box;
 }
@@ -29,7 +29,7 @@ p {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-  padding: 2rem 2rem 2.5rem 2rem;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,4 +51,40 @@ body {
 .header .burger {
   font-size: 22px;
   color: #999999;
+}
+
+.hero {
+  width: 100%;
+  margin-left: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  background-image: url(../images/graphic.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top -30px left 175px;
+  display: flex;
+}
+.hero .subtitle {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  font-style: normal;
+  font-weight: 700;
+  color: #FF3998;
+}
+.hero .title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #111111;
+}
+.hero .text {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+  color: #555555;
+  width: 90%;
+}
+.hero .left {
+  flex-basis: 76%;
 }/*# sourceMappingURL=main.css.map */
