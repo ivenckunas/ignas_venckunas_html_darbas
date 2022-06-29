@@ -45,6 +45,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.header .logo {
+  width: 198px;
+}
 .header .burger {
   font-size: 22px;
+  color: #999999;
 }/*# sourceMappingURL=main.css.map */
