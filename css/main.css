@@ -296,14 +296,13 @@ body {
 
 .footer {
   margin-left: 2rem;
-  margin-bottom: 4rem;
 }
 .footer .logo {
   padding-bottom: 1.5rem;
 }
 .footer .footer-text {
   color: #555555;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: 1.5rem;
 }
 .footer .socials {
@@ -329,8 +328,17 @@ body {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
-.footer .footer-copy {
+
+.footer-bottom {
+  margin-left: 2rem;
+  padding-bottom: 3.5rem;
+}
+.footer-bottom .footer-copy,
+.footer-bottom .footer-launch {
   color: #999999;
+}
+.footer-bottom .footer-launch {
+  display: none;
 }
 
 @media screen and (min-width: 429px) {
@@ -437,5 +445,25 @@ body {
   .footer-upsell .text {
     width: 55%;
     margin-bottom: 2.5rem;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
+    margin-left: 0;
+  }
+  .footer .links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-bottom .footer-launch {
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */
