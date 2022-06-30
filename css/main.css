@@ -490,7 +490,7 @@ body {
     margin-left: 0;
   }
   .footer .socials {
-    transition: 0.3s ease-out;
+    transition: 0.2s ease-out;
   }
   .footer .socials i:hover {
     color: rgb(92, 92, 92);
@@ -500,6 +500,7 @@ body {
     justify-content: space-between;
   }
   .footer .links ul > li {
+    transition: 0.2s ease-out;
     cursor: pointer;
   }
   .footer .links ul > li:hover {

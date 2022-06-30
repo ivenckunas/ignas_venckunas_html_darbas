@@ -175,7 +175,7 @@
         margin-left: 0;
 
         .socials {
-            transition: 0.3s ease-out;
+            transition: 0.2s ease-out;
 
             i:hover {
                 color: rgb(92, 92, 92);
@@ -187,6 +187,7 @@
             justify-content: space-between;
 
             ul>li {
+                transition: 0.2s ease-out;
                 cursor: pointer;
 
                 &:hover {
