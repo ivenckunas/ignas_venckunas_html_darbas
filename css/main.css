@@ -333,6 +333,7 @@ body {
   .header {
     padding: 0;
     padding-top: 4.5rem;
+    margin-bottom: 6rem;
   }
   .header .nav {
     display: flex;
@@ -348,16 +349,19 @@ body {
   }
 
   .hero {
-    background-position: right;
-    width: 80%;
+    background-size: auto;
+    background-position: top -60px left 530px;
+    width: 100%;
     margin-top: 6rem;
+    margin-bottom: 6rem;
     margin-left: 0;
   }
   .hero .title {
-    font-size: 4rem;
-    width: 30%;
+    font-size: 6rem;
+    width: 70%;
   }
   .hero .text {
     width: 55%;
+    margin-bottom: 2.5rem;
   }
 }/*# sourceMappingURL=main.css.map */
