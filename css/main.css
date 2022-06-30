@@ -6,7 +6,6 @@
 
 body {
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -284,12 +283,12 @@ body {
   flex-basis: 76%;
 }
 .footer-upsell button {
-  padding: 1rem 2.5rem;
+  padding: 1.2rem 2.8rem;
   background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(41deg, rgb(235, 34, 34), rgb(243, 226, 74)) border-box;
   border: 3px solid transparent;
   border-radius: 2rem;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 3rem;
 }
 
@@ -356,6 +355,7 @@ body {
     display: flex;
   }
   .header .nav a {
+    font-size: 1.2rem;
     margin-left: 1.5rem;
   }
   .header .nav a:last-of-type {
@@ -367,15 +367,15 @@ body {
 
   .hero {
     background-size: auto;
-    background-position: top -60px left 530px;
-    width: 100%;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    background-position: top -55px left 530px;
+    padding-top: 6rem;
+    padding-bottom: 9rem;
     margin-left: 0;
   }
   .hero .title {
     font-size: 6rem;
     width: 70%;
+    margin-bottom: 1rem;
   }
   .hero .text {
     width: 55%;
