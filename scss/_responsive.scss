@@ -1,15 +1,10 @@
 // TABLET MEDIA, CONTAINER from 429px to 1199px ======================
-@media screen and (min-width:429px) and (max-width:1199) {
+@media screen and (min-width:429px) {
 
-    .container {
-        max-width: 1280px;
-        min-width: 429px;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
+
 
     .header {
-        padding: 0;
+        padding: 0 2rem;
         padding-top: 4.5rem;
         margin-bottom: 6rem;
 
@@ -19,14 +14,18 @@
     }
 
     .hero {
-        background-size: auto;
-        background-position: top -55px left 530px;
+        margin-left: 2rem;
+        padding-bottom: 5rem;
         padding-top: 6rem;
-        padding-bottom: 9rem;
-        margin-left: 0;
+        padding-right: 2rem;
+        background-image: url(../images/graphic.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top -30px left 350px;
+        display: flex;
 
         .title {
-            font-size: 4rem;
+            font-size: 3rem;
             width: 70%;
             margin-bottom: 1rem;
         }
@@ -38,15 +37,15 @@
     }
 
     .upsell {
-        border-radius: 10px;
         padding: 9rem 0 4rem 4rem;
     }
 
     .press {
 
         display: grid;
-        grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         padding: 0;
+        padding-left: 2rem;
         margin-top: 7rem;
         margin-bottom: 7rem;
 
@@ -57,13 +56,13 @@
         }
 
         .open {
-            display: block;
+            display: none;
         }
     }
 
     .showcase {
         padding: 0;
-
+        padding-left: 2rem;
 
         .items {
             padding-top: 2rem;
@@ -94,8 +93,9 @@
     }
 
     .footer-upsell {
+        padding-left: 2rem;
         background-size: auto;
-        background-position: top -1px right 200px;
+        background-position: top -1px right 75px;
         width: 100%;
         margin-top: 6rem;
         margin-bottom: 6rem;
@@ -114,18 +114,22 @@
     }
 
     .footer {
+        padding-left: 2rem;
+        padding-right: 2rem;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 5rem;
+        grid-template-columns: 1fr 3fr;
         margin-left: 0;
 
         .links {
             display: flex;
-            justify-content: space-between;
+            gap: 1rem;
+            justify-content: flex-end;
         }
     }
 
     .footer-bottom {
+        padding-left: 2rem;
+        padding-right: 2rem;
         margin-left: 0;
         display: flex;
         justify-content: space-between;
@@ -137,7 +141,7 @@
 }
 
 // DESKTOP MEDIA, CONTAINER < 1280px ======================
-@media screen and (min-width:1200px) {
+@media screen and (min-width:769px) {
 
     .container {
         max-width: 1280px;
