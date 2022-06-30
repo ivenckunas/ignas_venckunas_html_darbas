@@ -109,13 +109,12 @@ body {
   flex-basis: 76%;
 }
 .hero button {
-  padding: 1rem 2.5rem;
+  padding: 1.2rem 2.8rem;
   background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(41deg, rgb(235, 34, 34), rgb(243, 226, 74)) border-box;
   border: 3px solid transparent;
   border-radius: 2rem;
   font-weight: 600;
-  font-size: 1rem;
-  margin-bottom: 3rem;
+  font-size: 1.2rem;
 }
 
 .upsell {
