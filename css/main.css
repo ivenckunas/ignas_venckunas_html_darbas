@@ -46,6 +46,12 @@ body {
   padding: 0;
 }
 
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+}
+
 .header {
   padding: 2rem;
   display: flex;
@@ -271,10 +277,40 @@ body {
   margin-bottom: 3rem;
 }
 
-.divider {
-  width: 100%;
-  height: 1px;
-  background-color: #777777;
+.footer {
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+}
+.footer .logo {
+  padding-bottom: 1rem;
+}
+.footer .footer-text {
+  color: #555555;
+  margin-bottom: 1.5rem;
+}
+.footer .socials {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+.footer .socials i {
+  color: #999999;
+}
+.footer .links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+.footer .links ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .links ul li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.footer .footer-copy {
+  color: #999999;
 }
 
 @media screen and (min-width: 429px) {
