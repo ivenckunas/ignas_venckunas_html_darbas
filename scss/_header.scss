@@ -10,24 +10,10 @@
 
     .nav {
         display: none;
-
-        a {
-            transition: 0.1s ease-in-out;
-
-            &:hover {
-                color: $accent-color;
-            }
-
-            &:last-child:hover {
-                color: $primary-color;
-            }
-        }
-
-
     }
+}
 
-    .burger {
-        font-size: 22px;
-        color: #999999;
-    }
+.burger {
+    font-size: 22px;
+    color: #999999;
 }

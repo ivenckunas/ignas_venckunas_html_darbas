@@ -17,12 +17,24 @@
             a {
                 font-size: 1.2rem;
                 margin-left: 1.5rem;
+                transition: 0.1s ease-in-out;
 
                 &:last-of-type {
                     color: $accent-color;
                 }
+
+                &:hover {
+                    color: $accent-color;
+                }
+
+                &:last-child:hover {
+                    color: $primary-color;
+                }
             }
         }
+
+
+
 
         .burger {
             display: none;
@@ -46,7 +58,16 @@
             width: 55%;
             margin-bottom: 2.5rem;
         }
+
+        button {
+            transition: 0.3s ease-out;
+
+            &:hover {
+                transform: translateY(-3px);
+            }
+        }
     }
+
 
     .upsell {
         border-radius: 10px;
@@ -75,12 +96,21 @@
     .showcase {
         padding: 0;
 
+        a {
+            transition: 0.2s ease-out;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+
         .items {
-            margin-top: 2rem;
-            margin-bottom: 8rem;
+            padding-top: 2rem;
+            padding-bottom: 8rem;
             display: flex;
             gap: 1rem;
             justify-content: space-between;
+
 
             .item-3,
             .item-4 {
@@ -96,6 +126,14 @@
                 border-top-left-radius: 15px;
                 border-top-right-radius: 15px;
                 margin-right: 0;
+                transition: 0.2s ease-out;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: translateY(-2px);
+                    box-shadow: 1px 1px 8px 1px rgb(175, 175, 175);
+                }
+
             }
         }
     }
@@ -118,6 +156,16 @@
             width: 55%;
             margin-bottom: 2.5rem;
         }
+
+        button {
+            transition: 0.3s ease-out;
+
+            &:hover {
+                transform: translateY(-3px);
+            }
+        }
+
+
     }
 
     .footer {
@@ -126,9 +174,25 @@
         column-gap: 5rem;
         margin-left: 0;
 
+        .socials {
+            transition: 0.3s ease-out;
+
+            i:hover {
+                color: rgb(92, 92, 92);
+            }
+        }
+
         .links {
             display: flex;
             justify-content: space-between;
+
+            ul>li {
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(165, 165, 165);
+                }
+            }
         }
     }
 
@@ -141,6 +205,4 @@
             display: block;
         }
     }
-
-
 }

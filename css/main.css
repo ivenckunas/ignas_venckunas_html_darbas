@@ -68,16 +68,8 @@ body {
 .header .nav {
   display: none;
 }
-.header .nav a {
-  transition: 0.1s ease-in-out;
-}
-.header .nav a:hover {
-  color: #FF3998;
-}
-.header .nav a:last-child:hover {
-  color: #111111;
-}
-.header .burger {
+
+.burger {
   font-size: 22px;
   color: #999999;
 }
@@ -116,7 +108,7 @@ body {
 .hero .left {
   flex-basis: 74%;
 }
-.hero button {
+.hero .left button {
   padding: 1.2rem 2.8rem;
   background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(41deg, rgb(235, 34, 34), rgb(243, 226, 74)) border-box;
   border: 3px solid transparent;
@@ -367,9 +359,16 @@ body {
   .header .nav a {
     font-size: 1.2rem;
     margin-left: 1.5rem;
+    transition: 0.1s ease-in-out;
   }
   .header .nav a:last-of-type {
     color: #FF3998;
+  }
+  .header .nav a:hover {
+    color: #FF3998;
+  }
+  .header .nav a:last-child:hover {
+    color: #111111;
   }
   .header .burger {
     display: none;
@@ -390,6 +389,12 @@ body {
   .hero .text {
     width: 55%;
     margin-bottom: 2.5rem;
+  }
+  .hero button {
+    transition: 0.3s ease-out;
+  }
+  .hero button:hover {
+    transform: translateY(-3px);
   }
 
   .upsell {
@@ -416,9 +421,15 @@ body {
   .showcase {
     padding: 0;
   }
+  .showcase a {
+    transition: 0.2s ease-out;
+  }
+  .showcase a:hover {
+    color: #111111;
+  }
   .showcase .items {
-    margin-top: 2rem;
-    margin-bottom: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
     display: flex;
     gap: 1rem;
     justify-content: space-between;
@@ -436,6 +447,15 @@ body {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-right: 0;
+    transition: 0.2s ease-out;
+  }
+  .showcase .items .item-1:hover,
+.showcase .items .item-2:hover,
+.showcase .items .item-3:hover,
+.showcase .items .item-4:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 8px 1px rgb(175, 175, 175);
   }
 
   .footer-upsell {
@@ -455,6 +475,12 @@ body {
     width: 55%;
     margin-bottom: 2.5rem;
   }
+  .footer-upsell button {
+    transition: 0.3s ease-out;
+  }
+  .footer-upsell button:hover {
+    transform: translateY(-3px);
+  }
 
   .footer {
     display: grid;
@@ -463,9 +489,21 @@ body {
          column-gap: 5rem;
     margin-left: 0;
   }
+  .footer .socials {
+    transition: 0.3s ease-out;
+  }
+  .footer .socials i:hover {
+    color: rgb(92, 92, 92);
+  }
   .footer .links {
     display: flex;
     justify-content: space-between;
+  }
+  .footer .links ul > li {
+    cursor: pointer;
+  }
+  .footer .links ul > li:hover {
+    color: rgb(165, 165, 165);
   }
 
   .footer-bottom {
