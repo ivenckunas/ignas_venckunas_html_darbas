@@ -145,6 +145,9 @@ body {
 .press img {
   height: 100%;
 }
+.press .open {
+  display: none;
+}
 .press .boom {
   height: 100%;
   background-image: url(../images/companies/1.svg);
@@ -368,5 +371,21 @@ body {
   .upsell {
     border-radius: 10px;
     padding: 9rem 0 4rem 4rem;
+  }
+
+  .press {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    padding: 0;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+  .press .boom {
+    background-image: url(../images/companies/1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .press .open {
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */

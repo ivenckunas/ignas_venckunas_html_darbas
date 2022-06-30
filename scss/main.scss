@@ -121,6 +121,10 @@
         height: 100%;
     }
 
+    .open {
+        display: none;
+    }
+
     .boom {
         height: 100%;
         background-image: url(../images/companies/1.svg);
@@ -390,6 +394,24 @@
         padding: 9rem 0 4rem 4rem;
     }
 
+    .press {
+
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+        padding: 0;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+
+        .boom {
+            background-image: url(../images/companies/1.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .open {
+            display: block;
+        }
+    }
 
 
 
