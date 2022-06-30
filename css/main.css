@@ -40,6 +40,11 @@ body {
   color: #111111;
 }
 
+.hr {
+  height: 1px;
+  background-color: #EEEEEE;
+}
+
 .container {
   width: 100%;
   margin: 0;
@@ -414,5 +419,23 @@ body {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-right: 0;
+  }
+
+  .footer-upsell {
+    background-size: auto;
+    background-position: top -1px right 200px;
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 0;
+    border-bottom: 1px solid #EEEEEE;
+  }
+  .footer-upsell .title {
+    font-size: 3.5rem;
+    width: 70%;
+  }
+  .footer-upsell .text {
+    width: 55%;
+    margin-bottom: 2.5rem;
   }
 }/*# sourceMappingURL=main.css.map */
