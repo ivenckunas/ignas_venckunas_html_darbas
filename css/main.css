@@ -151,18 +151,22 @@ body {
 
 .showcase {
   padding-left: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
 }
 .showcase h2 {
   color: #111111;
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
-  padding-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 .showcase p {
   color: #555555;
   font-size: 20px;
+  margin-bottom: 2.2rem;
+}
+.showcase p a {
+  text-decoration: underline;
 }
 .showcase .items {
   display: flex;
@@ -282,16 +286,18 @@ body {
   margin-bottom: 4rem;
 }
 .footer .logo {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 .footer .footer-text {
   color: #555555;
+  font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
 .footer .socials {
   display: flex;
   gap: 1rem;
   font-size: 1.1rem;
+  padding-bottom: 2rem;
 }
 .footer .socials i {
   color: #999999;
@@ -300,13 +306,14 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: left;
+  padding-bottom: 1.5rem;
 }
 .footer .links ul {
   list-style: none;
   padding: 0;
 }
 .footer .links ul li {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 .footer .footer-copy {
