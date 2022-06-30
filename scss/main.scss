@@ -166,7 +166,9 @@
     }
 
     .item-1,
-    .item-2 {
+    .item-2,
+    .item-3,
+    .item-4 {
         margin-right: 40px;
         min-width: 290px;
         background-color: #eeeeee;
@@ -357,7 +359,7 @@
             display: flex;
 
             a {
-                margin-left: 1rem;
+                margin-left: 1.5rem;
 
                 &:last-of-type {
                     color: #FF3998;
@@ -413,6 +415,31 @@
         }
     }
 
+    .showcase {
+        padding: 0;
 
+        .items {
+            margin-top: 2rem;
+            margin-bottom: 8rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: space-between;
 
+            .item-3,
+            .item-4 {
+                display: inline-block;
+            }
+
+            .item-1,
+            .item-2,
+            .item-3,
+            .item-4 {
+                background-color: #eeeeee;
+                border-radius: 10px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                margin-right: 0;
+            }
+        }
+    }
 }
