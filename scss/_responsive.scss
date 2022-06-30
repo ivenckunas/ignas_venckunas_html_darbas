@@ -1,7 +1,9 @@
+// TABLET MEDIA, CONTAINER from 429px to 1199px ======================
 @media screen and (min-width:429px) and (max-width:1199) {
 
     .container {
         max-width: 1280px;
+        min-width: 429px;
         margin: 0 auto;
         padding: 0 20px;
     }
@@ -11,33 +13,8 @@
         padding-top: 4.5rem;
         margin-bottom: 6rem;
 
-        .nav {
-            display: flex;
-
-            a {
-                font-size: 1.2rem;
-                margin-left: 1.5rem;
-                transition: 0.1s ease-in-out;
-
-                &:last-of-type {
-                    color: $accent-color;
-                }
-
-                &:hover {
-                    color: $accent-color;
-                }
-
-                &:last-child:hover {
-                    color: $primary-color;
-                }
-            }
-        }
-
-
-
-
         .burger {
-            display: none;
+            display: block;
         }
     }
 
@@ -58,16 +35,7 @@
             width: 55%;
             margin-bottom: 2.5rem;
         }
-
-        button {
-            transition: 0.3s ease-out;
-
-            &:hover {
-                transform: translateY(-3px);
-            }
-        }
     }
-
 
     .upsell {
         border-radius: 10px;
@@ -96,13 +64,6 @@
     .showcase {
         padding: 0;
 
-        a {
-            transition: 0.2s ease-out;
-
-            &:hover {
-                color: $primary-color;
-            }
-        }
 
         .items {
             padding-top: 2rem;
@@ -126,13 +87,7 @@
                 border-top-left-radius: 15px;
                 border-top-right-radius: 15px;
                 margin-right: 0;
-                transition: 0.2s ease-out;
 
-                &:hover {
-                    cursor: pointer;
-                    transform: translateY(-2px);
-                    box-shadow: 1px 1px 8px 1px rgb(175, 175, 175);
-                }
 
             }
         }
@@ -156,16 +111,6 @@
             width: 55%;
             margin-bottom: 2.5rem;
         }
-
-        button {
-            transition: 0.3s ease-out;
-
-            &:hover {
-                transform: translateY(-3px);
-            }
-        }
-
-
     }
 
     .footer {
@@ -174,26 +119,9 @@
         column-gap: 5rem;
         margin-left: 0;
 
-        .socials {
-            transition: 0.2s ease-out;
-
-            i:hover {
-                color: rgb(92, 92, 92);
-            }
-        }
-
         .links {
             display: flex;
             justify-content: space-between;
-
-            ul>li {
-                transition: 0.2s ease-out;
-                cursor: pointer;
-
-                &:hover {
-                    color: rgb(165, 165, 165);
-                }
-            }
         }
     }
 
@@ -208,7 +136,7 @@
     }
 }
 
-
+// DESKTOP MEDIA, CONTAINER < 1280px ======================
 @media screen and (min-width:1200px) {
 
     .container {

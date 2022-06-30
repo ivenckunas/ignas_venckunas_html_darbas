@@ -344,6 +344,7 @@ body {
 @media screen and (min-width: 429px) and (max-width: 1199) {
   .container {
     max-width: 1280px;
+    min-width: 429px;
     margin: 0 auto;
     padding: 0 20px;
   }
@@ -353,25 +354,8 @@ body {
     padding-top: 4.5rem;
     margin-bottom: 6rem;
   }
-  .header .nav {
-    display: flex;
-  }
-  .header .nav a {
-    font-size: 1.2rem;
-    margin-left: 1.5rem;
-    transition: 0.1s ease-in-out;
-  }
-  .header .nav a:last-of-type {
-    color: #FF3998;
-  }
-  .header .nav a:hover {
-    color: #FF3998;
-  }
-  .header .nav a:last-child:hover {
-    color: #111111;
-  }
   .header .burger {
-    display: none;
+    display: block;
   }
 
   .hero {
@@ -389,12 +373,6 @@ body {
   .hero .text {
     width: 55%;
     margin-bottom: 2.5rem;
-  }
-  .hero button {
-    transition: 0.3s ease-out;
-  }
-  .hero button:hover {
-    transform: translateY(-3px);
   }
 
   .upsell {
@@ -421,12 +399,6 @@ body {
   .showcase {
     padding: 0;
   }
-  .showcase a {
-    transition: 0.2s ease-out;
-  }
-  .showcase a:hover {
-    color: #111111;
-  }
   .showcase .items {
     padding-top: 2rem;
     padding-bottom: 8rem;
@@ -447,15 +419,6 @@ body {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-right: 0;
-    transition: 0.2s ease-out;
-  }
-  .showcase .items .item-1:hover,
-.showcase .items .item-2:hover,
-.showcase .items .item-3:hover,
-.showcase .items .item-4:hover {
-    cursor: pointer;
-    transform: translateY(-2px);
-    box-shadow: 1px 1px 8px 1px rgb(175, 175, 175);
   }
 
   .footer-upsell {
@@ -475,12 +438,6 @@ body {
     width: 55%;
     margin-bottom: 2.5rem;
   }
-  .footer-upsell button {
-    transition: 0.3s ease-out;
-  }
-  .footer-upsell button:hover {
-    transform: translateY(-3px);
-  }
 
   .footer {
     display: grid;
@@ -489,22 +446,9 @@ body {
          column-gap: 5rem;
     margin-left: 0;
   }
-  .footer .socials {
-    transition: 0.2s ease-out;
-  }
-  .footer .socials i:hover {
-    color: rgb(92, 92, 92);
-  }
   .footer .links {
     display: flex;
     justify-content: space-between;
-  }
-  .footer .links ul > li {
-    transition: 0.2s ease-out;
-    cursor: pointer;
-  }
-  .footer .links ul > li:hover {
-    color: rgb(165, 165, 165);
   }
 
   .footer-bottom {
