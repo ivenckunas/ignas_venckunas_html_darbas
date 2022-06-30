@@ -37,6 +37,13 @@ p {
 body {
   background-color: rgb(255, 255, 255);
   font-family: "Inter", sans-serif;
+  color: #111111;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -118,12 +125,35 @@ body {
 }
 
 .press {
-  padding: 2rem;
+  padding: 3rem 2rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3rem;
+  -moz-column-gap: 5.1rem;
+       column-gap: 5.1rem;
+  align-items: center;
+}
+.press img {
+  height: 100%;
 }
 .press .boom {
-  overflow: hidden;
-  height: 46px;
+  height: 100%;
+  background-image: url(../images/companies/1.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+@media screen and (min-width: 429px) {
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .hero {
+    background-position: right;
+  }
+  .hero .text {
+    width: 55%;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -4,6 +4,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap);
 
 
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     padding: 2rem;
     display: flex;
@@ -94,16 +100,39 @@
 }
 
 .press {
-    padding: 2rem;
+    padding: 3rem 2rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 5.1rem;
+    align-items: center;
+
+    img {
+        height: 100%;
+    }
 
     .boom {
-        overflow: hidden;
-        height: 46px;
+        height: 100%;
+        background-image: url(../images/companies/1.svg);
+        background-repeat: no-repeat;
+        background-position: left;
     }
 }
 
 
-@media screen and (min-width:429px) {}
+@media screen and (min-width:429px) {
+
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .hero {
+        background-position: right;
+
+        .text {
+            width: 55%;
+        }
+    }
+}
