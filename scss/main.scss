@@ -26,6 +26,10 @@
         width: 198px;
     }
 
+    .nav {
+        display: none;
+    }
+
     .burger {
         font-size: 22px;
         color: #999999;
@@ -340,11 +344,42 @@
         padding: 0 20px;
     }
 
+    .header {
+        padding: 0;
+        padding-top: 4.5rem;
+
+        .nav {
+            display: flex;
+
+            a {
+                margin-left: 1rem;
+
+                &:last-of-type {
+                    color: #FF3998;
+                }
+            }
+        }
+
+        .burger {
+            display: none;
+        }
+    }
+
     .hero {
         background-position: right;
+        width: 80%;
+        margin-top: 6rem;
+        margin-left: 0;
+
+        .title {
+            font-size: 4rem;
+            width: 30%;
+        }
 
         .text {
             width: 55%;
         }
+
+
     }
 }
