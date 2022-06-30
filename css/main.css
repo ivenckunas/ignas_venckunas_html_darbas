@@ -125,7 +125,7 @@ body {
 }
 
 .press {
-  padding: 3rem 2rem;
+  padding: 3rem 2rem 4rem 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 3rem;
@@ -141,6 +141,88 @@ body {
   background-image: url(../images/companies/1.svg);
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.showcase {
+  padding-left: 2rem;
+  padding-bottom: 5rem;
+}
+.showcase h2 {
+  color: #111111;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 1rem;
+}
+.showcase p {
+  color: #555555;
+  font-size: 20px;
+}
+.showcase .items {
+  display: flex;
+  overflow: hidden;
+}
+.showcase .item-3,
+.showcase .item-4 {
+  display: none;
+}
+.showcase .item-1,
+.showcase .item-2 {
+  margin-right: 40px;
+  min-width: 290px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.showcase ul {
+  padding: 0px 24px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.showcase ul .ul-left {
+  text-align: left;
+}
+.showcase ul .ul-left .series {
+  color: orange;
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 0.5em;
+}
+.showcase ul .ul-left .name {
+  font-weight: 500;
+  font-size: 20px;
+  color: #111111;
+  padding-bottom: 0.5em;
+}
+.showcase ul .ul-left .number {
+  font-size: 18px;
+  color: #777777;
+}
+.showcase ul .ul-right {
+  text-align: right;
+}
+.showcase ul .ul-right .bid {
+  color: #777777;
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 0.5em;
+}
+.showcase ul .ul-right .eth {
+  color: #111111;
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 0.5em;
+}
+.showcase ul .ul-right .eth img {
+  padding-right: 0.5rem;
+}
+.showcase ul .ul-right .day {
+  color: #777777;
+  font-size: 18px;
+  padding-bottom: 0.5em;
 }
 
 @media screen and (min-width: 429px) {
