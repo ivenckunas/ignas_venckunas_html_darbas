@@ -16,14 +16,14 @@
         letter-spacing: 0.1em;
         font-style: normal;
         font-weight: 700;
-        color: #FF3998;
+        color: $accent-color;
     }
 
     .title {
         font-style: normal;
         font-weight: 900;
         font-size: 3rem;
-        color: #111111;
+        color: $primary-color;
         width: 65%;
     }
 
@@ -31,7 +31,7 @@
         font-size: 1.2rem;
         line-height: 1.6rem;
         font-weight: 400;
-        color: #555555;
+        color: $text-color;
         width: 65%;
     }
 

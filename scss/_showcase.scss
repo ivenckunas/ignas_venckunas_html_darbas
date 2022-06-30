@@ -3,7 +3,7 @@
     padding-bottom: 6rem;
 
     h2 {
-        color: #111111;
+        color: $primary-color;
         font-weight: 500;
         font-size: 40px;
         line-height: 48px;
@@ -11,12 +11,13 @@
     }
 
     p {
-        color: #555555;
+        color: $text-color;
         font-size: 20px;
         margin-bottom: 2.2rem;
 
         a {
             text-decoration: underline;
+            font-weight: 600;
         }
     }
 
@@ -36,7 +37,7 @@
     .item-4 {
         margin-right: 40px;
         min-width: 290px;
-        background-color: #eeeeee;
+        background-color: $bg-color;
         border-radius: 10px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
@@ -62,13 +63,13 @@
             .name {
                 font-weight: 500;
                 font-size: 20px;
-                color: #111111;
+                color: $primary-color;
                 padding-bottom: 0.5em;
             }
 
             .number {
                 font-size: 18px;
-                color: #777777;
+                color: $ul-card-text;
             }
         }
 
@@ -77,14 +78,14 @@
 
 
             .bid {
-                color: #777777;
+                color: $ul-card-text;
                 font-size: 12px;
                 font-weight: 500;
                 padding-bottom: 0.5em;
             }
 
             .eth {
-                color: #111111;
+                color: $primary-color;
                 font-weight: 500;
                 font-size: 20px;
                 padding-bottom: 0.5em;
@@ -95,7 +96,7 @@
             }
 
             .day {
-                color: #777777;
+                color: $ul-card-text;
                 font-size: 18px;
                 padding-bottom: 0.5em;
             }

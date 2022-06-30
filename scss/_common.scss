@@ -1,12 +1,12 @@
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
-    color: #111111;
+    color: $primary-color;
 }
 
 .hr {
     height: 1px;
-    background-color: #EEEEEE;
+    background-color: $bg-color;
 
 }
 
@@ -19,5 +19,5 @@ body {
 .divider {
     width: 100%;
     height: 1px;
-    background-color: #eeeeee;
+    background-color: $bg-color;
 }
