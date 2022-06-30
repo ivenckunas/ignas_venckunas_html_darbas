@@ -1,0 +1,19 @@
+.header {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        width: 198px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        font-size: 22px;
+        color: #999999;
+    }
+}

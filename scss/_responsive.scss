@@ -1,0 +1,146 @@
+@media screen and (min-width:429px) {
+
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .header {
+        padding: 0;
+        padding-top: 4.5rem;
+        margin-bottom: 6rem;
+
+        .nav {
+            display: flex;
+
+            a {
+                font-size: 1.2rem;
+                margin-left: 1.5rem;
+
+                &:last-of-type {
+                    color: #FF3998;
+                }
+            }
+        }
+
+        .burger {
+            display: none;
+        }
+    }
+
+    .hero {
+        background-size: auto;
+        background-position: top -55px left 530px;
+        padding-top: 6rem;
+        padding-bottom: 9rem;
+        margin-left: 0;
+
+        .title {
+            font-size: 6rem;
+            width: 70%;
+            margin-bottom: 1rem;
+        }
+
+        .text {
+            width: 55%;
+            margin-bottom: 2.5rem;
+        }
+    }
+
+    .upsell {
+        border-radius: 10px;
+        padding: 9rem 0 4rem 4rem;
+    }
+
+    .press {
+
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+        padding: 0;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+
+        .boom {
+            background-image: url(../images/companies/1.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .open {
+            display: block;
+        }
+    }
+
+    .showcase {
+        padding: 0;
+
+        .items {
+            margin-top: 2rem;
+            margin-bottom: 8rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: space-between;
+
+            .item-3,
+            .item-4 {
+                display: inline-block;
+            }
+
+            .item-1,
+            .item-2,
+            .item-3,
+            .item-4 {
+                background-color: #eeeeee;
+                border-radius: 10px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                margin-right: 0;
+            }
+        }
+    }
+
+    .footer-upsell {
+        background-size: auto;
+        background-position: top -1px right 200px;
+        width: 100%;
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+        margin-left: 0;
+        border-bottom: 1px solid #EEEEEE;
+
+        .title {
+            font-size: 3.5rem;
+            width: 70%;
+        }
+
+        .text {
+            width: 55%;
+            margin-bottom: 2.5rem;
+        }
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5rem;
+        margin-left: 0;
+
+        .links {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .footer-bottom {
+        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+
+        .footer-launch {
+            display: block;
+        }
+    }
+
+
+}
