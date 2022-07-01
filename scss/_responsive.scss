@@ -96,6 +96,7 @@
 
     .footer-upsell {
         padding-left: 2rem;
+        padding-bottom: 0;
         background-size: auto;
         background-position: right;
         width: 100%;
@@ -144,7 +145,7 @@
     }
 }
 
-// DESKTOP MEDIA, CONTAINER < 1280px ======================
+// DESKTOP MEDIA, CONTAINER < 769px ======================
 @media screen and (min-width:769px) {
 
     .container {

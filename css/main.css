@@ -423,6 +423,7 @@ body {
 
   .footer-upsell {
     padding-left: 2rem;
+    padding-bottom: 0;
     background-size: auto;
     background-position: right;
     width: 100%;
