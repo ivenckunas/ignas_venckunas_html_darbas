@@ -21,7 +21,7 @@
         background-image: url(../images/graphic.png);
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: fixed;
+        background-position: right;
         display: flex;
 
         .title {
@@ -95,7 +95,7 @@
     .footer-upsell {
         padding-left: 2rem;
         background-size: auto;
-        background-position: fixed;
+        background-position: right;
         width: 100%;
         margin-top: 6rem;
         margin-bottom: 6rem;
@@ -119,6 +119,7 @@
         padding-right: 2rem;
         display: flex;
         flex-wrap: wrap;
+        gap: 2rem;
         margin-left: 0;
 
         .links {
