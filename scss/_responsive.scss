@@ -6,7 +6,7 @@
     .header {
         padding: 0 2rem;
         padding-top: 4.5rem;
-        margin-bottom: 6rem;
+        margin-bottom: 3rem;
 
         .burger {
             display: block;
@@ -16,12 +16,12 @@
     .hero {
         margin-left: 2rem;
         padding-bottom: 5rem;
-        padding-top: 6rem;
+        padding-top: 3rem;
         padding-right: 2rem;
         background-image: url(../images/graphic.png);
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: top -30px left 350px;
+        background-position: fixed;
         display: flex;
 
         .title {
@@ -95,7 +95,7 @@
     .footer-upsell {
         padding-left: 2rem;
         background-size: auto;
-        background-position: top -1px right 75px;
+        background-position: fixed;
         width: 100%;
         margin-top: 6rem;
         margin-bottom: 6rem;
@@ -114,10 +114,11 @@
     }
 
     .footer {
+        width: 100%;
         padding-left: 2rem;
         padding-right: 2rem;
-        display: grid;
-        grid-template-columns: 1fr 3fr;
+        display: flex;
+        flex-wrap: wrap;
         margin-left: 0;
 
         .links {
